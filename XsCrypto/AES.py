@@ -35,24 +35,6 @@ def en_AES(m,key,mode,iv):
         c = message.encrypt(m)
         return c
 
-# m = "The answer is no"
-# key = "This is a key123"
-# iv = "This is an IV456"
-# c = en_AES(m,key,'cbc',iv)
-# print c
-# m = de_AES(c,key,'cbc',iv)
-# print m
-# #
-
-
-
-import base64
-s = 'mbZoEMrhAO0WWeugNjqNw3U6Tt2C+rwpgpbdWRZgfQI3MAh0sZ9qjnziUKkV90XhAOkIs/OXoYVw5uQDjVvgNA=='
-iv = base64.b64decode(s)[:16]
-c = base64.b64decode(s)
-key = 'Qq4wdrhhyEWe4qBF'
-print de_AES(c,key,mode='cbc',iv=iv)
-
 
 
 

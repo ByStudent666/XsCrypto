@@ -27,6 +27,3 @@ def base36encode(number, alphabet='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'):
 
 def base36decode(number):
     return int(number, 36)
-
-# print base36encode(1412823931503067241)
-# print base36decode('AQF8AA0006EH')

@@ -66,6 +66,3 @@ def morse2s(morseCode):
         else:
             message += UNCODE[s]
     return message
-# Test
-# print morse2s(".-- .... .- -  - .... .  ..-. ..- -.-. -.- -.-.--")
-# print s2morse("what the fuck!")

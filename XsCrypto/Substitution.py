@@ -116,10 +116,4 @@ def de_Fence_baopo(s):
 
 
 
-# de_Caesar_26baopo('synt{5pq1004q-86n5-46q8-o720-oro5on0417r1}')
-# print en_caesar('synt{5pq1004q-86n5-46q8-o720-oro5on0417r1}',13)
-# print de_Fence_baopo('TEESCPEHRIAIHR')
-# print en_Fence("meetmeaftertheparty",2)
-# c="39.4H/?BA2,0.2@.?J"
-# print de_Caesar_127baopo(c,"flag")
 

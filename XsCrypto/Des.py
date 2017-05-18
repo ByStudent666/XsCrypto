@@ -125,10 +125,3 @@ def en_DES(m,key,mode,iv=0):
 
 
 
-# key = '01234567'
-# iv = '12345678'
-# m = 'xxxxxxxx'
-# c = en_DES(m,key,mode='cbc',iv=iv)
-# print c
-# m = de_DES(c,key,mode='cbc',iv=iv)
-# print m

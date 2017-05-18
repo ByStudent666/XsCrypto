@@ -31,9 +31,7 @@ def de_Vigenere(output,key):
         inp += chr(c)
     return inp
 
-#
-# print en_Vigenere('backbystudent','zz')
-# print de_Vigenere('azbjaxrstcdms','zz')
+
 
 
 

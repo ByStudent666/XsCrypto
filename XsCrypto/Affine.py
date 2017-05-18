@@ -9,7 +9,6 @@ cipher_char = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
 
 
 def en_Affine(plaintext):
-    'ENCRYPT FUNCTION,PARAMETER:PLAINTEXT,RETURN:CIPHERTEXT'
     cipher_array = [0 for i in range(len(plaintext))]  # init the array
     plainlist = list(plaintext)
     # print plainlist #debug
@@ -41,4 +40,4 @@ def de_Affine(ciphertext):
 
 
 
-print de_Affine('tjauvoqqmuunihtegnohjimqqeeaoqin'.upper())
+
